@@ -1,0 +1,30 @@
+body {
+background-color:  #ffffff;
+}
+
+.form {
+  width: 30%;
+  margin: 0 auto;
+}
+
+input {
+  border-radius: 4px;
+  outline: none;
+  padding: 7px 11px;
+  height: 20px;
+  font-size: 14px;
+  display: block;
+/*  border: none; just for clear view will remove the comment later*/
+  background-color: transparent;
+  line-height: 24px;
+  flex-grow: 1;
+  flex-shrink: 1
+ }
+
+.firstname , .password , .logininstead{
+float: left;
+}
+
+div {
+line-height: 45px;
+}

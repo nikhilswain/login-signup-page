@@ -3,46 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>registeration</title>
+    <link rel="stylesheet" href="/phpproject/regis.css">
   </head>
   <body>
     <!-- heading is in the js script (template literals) -->
-    <form action="register.php" method="post">
     <div class="wrapper">
-      <div class="header">Sign Up </div>
-      <div class="header2">Create your account </div>
-      <div class="user-info">
-        <div class="username">
-        <div class="firstname">
-        <input type="text" name="fname" placeholder="First name">
-        </div>
-        <div class="lastname">
-          <input type="text" name="lname" placeholder="Last name ">
-        </div>
-        </div>
-        <div class="email">
-          <input type="email" name="email"placeholder="Email">
-          <div class="instruction foremail">You can use letters number & period</div>
-        </div>
-        <div class="userPass">
-          <div class="password">
-            <input type="password" name="password" placeholder="Password">
+      <form action="register.php" method="post">
+      <div class="form">
+        <div class="header">Sign Up </div>
+        <div class="header2">Create your account </div>
+        <div class="user-info">
+          <div class="username">
+          <div class="firstname">
+          <input type="text" name="fname" placeholder="First name">
           </div>
-          <div class="cnfpassword">
-          <input type="password" name="cnfpassword" placeholder="Confirm">
+          <div class="lastname">
+            <input type="text" name="lname" placeholder="Last name ">
           </div>
-          <div class="instruction forpassword">Use 8 or more charaters with a mix of letters numbers and symbols.</div>
+          </div>
+          <div class="email">
+            <input type="email" name="email"placeholder="Email">
+            <div class="infemail">You can use letters number & period</div>
+          </div>
+          <div class="userPass">
+            <div class="password">
+              <input type="password" name="password" placeholder="Password">
+            </div>
+            <div class="cnfpassword">
+            <input type="password" name="cnfpassword" placeholder="Confirm">
+            </div>
+           </div>
         </div>
+        <div class="proceed">
+          <div class="logininstead">
+            <a href = '#'>Log in instead ?</a><!-- # == the sign in page-->
+          </div>
+          <div class="next">
+            <button type="submit" onclick="window.location.href = '#'">Next</button>
+          </div>
+          </div>
+        </div>
+          </form>
       </div>
-      <div class="proceed">
-        <div class="logininstead">
-          <button type="button" name="login" onclick="window.location.href = '#'">Log in instead</button><!-- # == the sign in page-->
-        </div>
-        <div class="Next">
-          <button type="submit" onclick="window.location.href = '#'">Next</button>
-        </div>
-        </div>
-      </div>
-    </div>
-    </form>
   </body>
 </html>

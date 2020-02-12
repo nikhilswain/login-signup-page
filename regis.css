@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    margin-top: 5%;
+    white-space: normal;
+    direction: ltr;
+}
+
+div.wrapper {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    min-width: 350px;
+    line-height: 3em;
+
+
+}
+
+div.form{
+    padding: 48px 40px 36px 40px;
+     border: 1px solid #b8b8b8;
+    border-radius: 8px;
+    height: auto;
+    min-height: 500px;
+
+}
+
+div.header {
+    font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    line-height: 2;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#424cd6,#291385);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.2em;
+}
+div.header2{
+    font-family: "Google Sans", arial, sans-serif;
+    padding : 16px 0;
+    font-size: 1.8em;
+}
+
+input {
+    margin: 4px 20px 4px 0;
+    margin-bottom: 10px;
+    border: 1px solid #b9bab6;
+    border-radius: 4px;
+    justify-content: center;
+    text-align : left;
+    padding: 7px 8px;
+    outline: none;
+}
+
+input:focus{
+    border: 1.5px solid #2881d4;
+}
+
+div.proceed{
+    display: flex;
+    flex: 1 0 0 ;
+    min-width: 200px;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 12px 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif,serif,roboto,arial;
+    color: #1d53c4;
+    font-weight : 500;
+    letter-spacing: .25px;
+}
+
+.infemail{
+    font-family: helvetica;
+}
+
+div.next button{
+    min-width: 88px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    background-color:#185ad6;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: -7px;
+}
+
+div.next button:hover{
+    background-color: #124cb8;
+}
+
+.infemail{
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 12px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.username, .userPass{
+    display: flex;
+}
